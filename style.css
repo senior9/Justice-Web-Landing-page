@@ -1,0 +1,22 @@
+body{
+    overflow-x: hidden !important;
+}
+.btn-custom{
+    background-color: #B68C5A;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+.cards{
+    display:flex;
+    justify-items: center;
+    
+}
+.carousel-item {
+    background-image: url('./images/Gradient.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-item img{
+    background:  linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+ }

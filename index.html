@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- FontAwesome CDN  -->
+        <script src="https://kit.fontawesome.com/c7e244b723.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <!-- Bootstrap CDN  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!-- Global StyleSheet  -->
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body class="">
+        <!-- Code Start -->
+        <!-- Navbar Part Start -->
+
+        <div class="m-4 ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+                <div class="container">
+
+                    <!-- Site Logo  -->
+
+                    <a href="#" class="navbar-brand"><img src="./images/logo2.png" alt=""></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- HyperLink  -->
+                    <div class="collapse navbar-collapse mx-auto " id="navbarCollapse">
+                        <div class="navbar-nav mx-auto gap-5">
+                            <a href="#" class="nav-item nav-link active">Home  <i class="fa-1x fa-solid fa-chevron-right"></i></a>
+                            <a href="#" class="nav-item nav-link active">Services <i class="fa-1x fa-solid fa-chevron-right"></i></a>
+                            <a href="#" class="nav-item nav-link  active">Cases <i class="fa-1x fa-solid fa-chevron-right"></i></a>
+                            <a href="#" class="nav-item nav-link active">Blogs <i class="fa-1x fa-solid fa-chevron-right"></i></a>
+                            <a href="#" class="nav-item nav-link active">Contact Us <i class="fa-1x fa-solid fa-chevron-right"></i></a>
+
+                        </div>
+                        <!-- Modals Button  -->
+                        <div class="navbar-nav ms-auto">
+                            <a href="#" class="nav-item nav-link">
+                                <form class="d-flex" role="search">
+
+                                    <!-- Modals Button  -->
+                                    <button type="button" class="btn btn-warning btn-custom px-5 py-3 fs-4 fw-normal"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                                        Statement</button>
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Write Down Your
+                                                        Problems:</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="recipient-name"
+                                                                class="col-form-label">Email:</label>
+                                                            <input type="text" class="form-control" id="recipient-name">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="message-text" class="col-form-label">Write a
+                                                                legal
+                                                                statement here:</label>
+                                                            <textarea class="form-control" id="message-text"></textarea>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger btn-custom"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-success btn-custom">Send
+                                                        message</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Navbar Part End -->
+
+
+        <!-- Menu part /Section part  -->
+
+        <div class="d-flex flex-column justify-content-center container align-items-center py-5 mt-lg-5" style="
+        background-image: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('./images/banner.png');
+        background-position: center;
+      ">
+            <div class="py-5">
+                <h1 class="text-center text-white fs-1 fs-sm-2 fw-bolder">
+                    We Provide Effective <br />
+                    Legal Solutions
+                </h1>
+                <p class="text-center text-white">
+                    At Effective Legal Solutions, our aim is to help you achieve the best
+                    <br />
+                    possible outcome to ensure your family, your future and your assets
+                    are protected.
+                </p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <form class="d-flex flex-column flex-md-row gap-2" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-warning btn-custom px-5 py-2 py-md-3" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Menu part End  -->
+        <!-- Container Part Start  -->
+        <div class="mt-5 container">
+            <h1 class="text-center">The Legal Practice Area</h1>
+            <p class="text-center">From corporate law to human rights law, find out about <br> different practice areas
+                and what skills you need to succeed in each one.</p>
+
+
+            <div class="cards d-lg-flex align-items-center flex-column flex-lg-row justify-content-center mt-5">
+                <!-- Card 1 -->
+
+                <div class=" border-bottom border-end d-flex flex-column align-items-center p-5 gap-5"
+                    style="width: 22rem; height: 28rem;">
+                    <img class="" src="./images/business.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Business Law</h5>
+                        <p class="card-text text-center text-body-tertiary">Corporate law is the body of law governing
+                            the rights, relations, and conduct of persons, companies, organizations and businesses.</p>
+                    </div>
+                    <i class="fa-solid text-warning fa-circle-right"></i>
+                </div>
+                <!-- Card 2  -->
+                <div class=" border-bottom border-end d-flex flex-column align-items-center p-5 gap-5"
+                    style="width: 22rem; height: 28rem;">
+                    <img class="" src="./images/criminal.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Criminal Law</h5>
+                        <p class="card-text text-center text-body-tertiary">Criminal law is the body of law that relates
+                            to crime. It prescribes conduct perceived as threatening, harmful.</p>
+                    </div>
+                    <i class="fa-solid text-warning fa-circle-right"></i>
+                </div>
+                <!-- Card 3 -->
+
+                <div class=" border-bottom border-end-0 d-flex flex-column align-items-center p-5 gap-5"
+                    style="width: 22rem; height: 28rem;">
+                    <img class="" src="./images/child.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Child Support</h5>
+                        <p class="card-text text-center text-body-tertiary">There are 47 child support agencies across
+                            California that establish and enforce child support and medical support orders.</p>
+                    </div>
+                    <i class="fa-solid text-warning fa-circle-right"></i>
+                </div>
+            </div>
+            <div class="cards d-lg-flex align-items-center flex-column flex-lg-row justify-content-lg-center">
+                <!-- Card 4 -->
+                <div class=" border-bottom-0 border-end d-flex flex-column align-items-center p-5 gap-5"
+                    style="width: 22rem; height: 28rem;">
+                    <img class="" src="./images/education.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Education Law</h5>
+                        <p class="card-text text-center text-body-tertiary">Education law is the legal discipline
+                            covering all issues pertaining to schools, from kindergarten through higher education.</p>
+                    </div>
+                    <i class="fa-solid text-warning fa-circle-right"></i>
+                </div>
+                <!-- Card 5 -->
+
+
+                <div class=" border-bottom-0 border-end d-flex flex-column align-items-center p-5 gap-5"
+                    style="width: 22rem; height: 28rem;">
+                    <img class="" src="./images/divorce.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Divorce Law</h5>
+                        <p class="card-text text-center text-body-tertiarytext-center text-body-tertiary">There is a
+                            Divorce Act established in 1869 which permits the dissolution of marriage, a nullity of
+                            marriage and judicial separation.</p>
+                    </div>
+                    <i class="fa-solid text-warning fa-circle-right"></i>
+                </div>
+                <!-- Card 6 -->
+                <div class=" border-bottom-0 border-end-0 d-flex flex-column align-items-center p-5 gap-5"
+                    style="width: 22rem; height: 28rem;">
+                    <img class="" src="./images/tax.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tax Law</h5>
+                        <p class="card-text text-center text-body-tertiary">Tax law or revenue law is an area of legal
+                            study in which public or sanctioned authorities, such as federal, state.</p>
+                    </div>
+                    <i class="fa-solid text-warning fa-circle-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bonus Section  -->
+        <div class="container mt-5">
+            <h1 class="text-muted text-center mb-3">A Place For Everyone</h1>
+            <div class="card-group gap-2 d-lg-flex justify-items-lg-center">
+                <!-- Baonus Card One  -->
+                <div class="card">
+                    <img class="card-img-top" src="./images/card-1.jpg" alt="Card image cap">
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-center">BIRMINGHAM</h5>
+                        <p class="card-text text-center">Our Birmingham campus, which hosts both our legal and
+                            business courses, is situated in the heart of the U`s second largest city.</p>
+                        <div class="row">
+                            <div class="col-4 offset-4">
+                                <button type="button"
+                                    class="btn btn-warning btn-custom px-5 py-2 fs-5 fw-normal text-body-emphasis mx-auto">
+                                    <span class="text-white">Visit</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Bonus Card Two -->
+                <div class="card">
+                    <img class="card-img-top" src="./images/card-2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">BERLIN</h5>
+                        <p class="card-text text-center">Berlin is the largest city in the European Union and has a
+                            thriving business scene offering a wide range of career opportunities.</p>
+                        <div class="row">
+                            <div class="col-4 offset-4">
+                                <button type="button"
+                                    class="btn btn-warning btn-custom px-5 py-2 fs-5 fw-normal text-body-emphasis mx-auto">
+                                    <span class="text-white">Visit</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Bonus Card Three  -->
+                <div class="card">
+                    <img class="card-img-top" src="./images/card-03.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">LONDON BLOOMSBURY</h5>
+                        <p class="card-text text-center">Situated in the heart of London, Bloomsbury is our largest
+                            campus, close to London`s major legal and business hubs.</p>
+                        <div class="row">
+                            <div class="col-4 offset-4">
+                                <button type="button"
+                                    class="btn btn-warning btn-custom px-5 py-2 fs-5 fw-normal text-body-emphasis mx-auto">
+                                    <span class="text-white">Visit</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Client Part Section  -->
+        <div class="mt-5">
+            <h1 class="text-center">What Our Client Say</h1>
+            <p class="text-center mt-4"> Read what our customers feel about our products! ... What our customers
+                <br> do well, i.e. Close Positions by engaging with the Righ
+            </p>
+
+            <!-- Carousel Item -->
+
+            <div  id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-indicators top-50">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div>
+                    <div  class="carousel-inner">
+                        <!-- Slide One -->
+                        <div class="carousel-item active " style="background-color: rgba(17, 17, 17, 0.8);">
+                            <img style="width: 50%;" src="./images/slider-1.jpg" class="d-block w-100 " alt="...">
+                            
+                            <div class="carousel-caption d-none d-md-block top-50 translate-middle-y">
+                                <img src="" alt="">
+                                <img src="./images/circle-1.png" class="rounded-circle" alt="Rounded Image" width="100"
+                                    height="100">
+                                <h5>Ui/Ux Designer</h5>
+                                <p>Since the first modern-day legal system began in Rome, the scales of justice have
+                                    been used to symbolize the balance between truth and fairness sought after in the
+                                    justice system. .</p>
+                            </div>
+                        </div>
+                        <!-- Slide Two -->
+                        <div class="carousel-item">
+                            <img src="./images/slider-2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block top-50 translate-middle-y">
+                            
+                                <img src="./images/circle-1.png" class="rounded-circle" alt="Rounded Image" width="100"
+                                    height="100">
+                                <h5 class="">Laravel Dev</h5>
+                                <p class="">The scales of justice are about fairness in court cases. There are two sides to every
+                                    story, and each side of a case or a story must be heard.</p>
+                            </div>
+                        </div>
+                        <!-- Slide three -->
+                        <div class="carousel-item">
+                            <img src="./images/slider-3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block top-50 translate-middle-y">
+                                <img src="./images/circle-1.png" class="rounded-circle" alt="Rounded Image" width="100"
+                                    height="100">
+                                <h5>Phython Dev </h5>
+                                <p>The right weight in the scales of justice. Charles E.H. Berger. Netherlands Forensic
+                                    Institute, The Hague, The Netherlands.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Frequently Asked Question Section  -->
+        <div class="mt-5 container">
+            <h1 class="text-body-secondary text-center">Frequently Asked Any Questions</h1>
+            <p class="text-center text-body-emphasis mt-4">A frequently asked questions list is often used in
+                articles, websites, email lists, <br> and online forums where common questions tend to recur, for
+                example through posts or queries by <br> new users related to common knowledge gaps</p>
+            <div class="row-cols-2 d-lg-flex  align-items-center justify-content-lg-between mt-5">
+                <div class=" d-grid mx-auto flex-column gap-2 ">
+
+                    <!-- Question One  -->
+                    <div class="gap-2 p-xxl-5">
+                        <div
+                            class="shadow bg-body rounded d-lg-flex justify-content-lg-between align-items-lg-center p-2">
+                            <h6 class="fw-bold text-body-secondary">What is the difference beween flex-box and grid?
+                            </h6>
+                            <a class="btn btn-light" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+                                aria-expanded="false" aria-controls="collapseExample4">
+                                <i class="fa-solid fa-2x fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseExample4">
+                            <div class="card border-0 card-body">
+                                Dimensionality Alignment Overlapping Elements-typr Useage
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Question One End -->
+
+                    <!-- Question Two Start -->
+                    <div class="gap-2 p-xxl-5">
+                        <div
+                            class="shadow bg-body rounded d-lg-flex justify-content-lg-between align-items-lg-center  p-2">
+                            <h6 class="fw-bold text-body-secondary">What is the purpose of media queries ?</h6>
+                            <a class="btn btn-light" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                aria-expanded="false" aria-controls="collapseExample2">
+                                <i class="fa-solid fa-2x fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseExample2">
+                            <div class="card border-0 card-body">
+                                Media queries allow you to apply CSS styles depending on a device's
+                                Media queries are css3 conditional statement used to adapt design on different
+                                screens.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Question Two End -->
+
+                    <!-- Question Three  Start-->
+                    <div class="gap-2 p-xxl-5">
+                        <div
+                            class="shadow bg-body rounded d-lg-flex justify-content-lg-between align-items-lg-center p-2">
+                            <h6 class="fw-bold text-body-secondary">What do you mean by CSS box model?And How Does
+                                it Work?</h6>
+                            <a class="btn btn-light" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                                aria-expanded="false" aria-controls="collapseExample3">
+                                <i class="fa-solid fa-2x fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="collapse shadow bg-body " id="collapseExample3">
+                            <p class="text-body-secondary text-success">A box that wraps around every HTML element.
+                                It consist of: MArgins, Borders,Padding ,Actual Content </p>
+
+                        </div>
+                    </div>
+                    <!-- Question Three  End-->
+
+                    <!-- Question Four Start  -->
+                    <div class="gap-2 p-xxl-5">
+                        <div
+                            class="shadow bg-body rounded d-lg-flex justify-content-lg-between align-items-lg-center p-2">
+                            <h6 class="fw-bold text-body-secondary">What are the HTML semantic tags?Useage?Example ?
+                            </h6>
+                            <a class="btn btn-light" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+                                aria-expanded="false" aria-controls="collapseExample4">
+                                <i class="fa-solid fa-2x fa-plus"></i>
+                            </a>
+                        </div>
+                        <div class="collapse" id="collapseExample4">
+                            <div class="card border-0 card-body">
+                                Semantic tags in HTML are tags that have a specific meaning and describe the content
+                                they contain.Semantic HTML elements are those that clearly describe their meaning in
+                                a human and machine-readable way. Elements such as [header footer, and article] are
+                                all considered semantic because they accurately describe the purpose of the element
+                                and the type of content that is inside them.Writing semantic HTML makes your code
+                                easier to understand, making the source code more readable for other developers.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Question Four End  -->
+
+                </div>
+                <div class="d-grid col-12 mt-5">
+                    <img class="img-fluid" src="./images/faq.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer part  -->
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-black text-muted pt-5 mt-5">
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3   col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <img src="./images/logo.png" alt="">
+                            <p class="text-left mt-5 text-white">
+                                Justice is a French electronic music duo consisting of Gaspard Augé and Xavier de
+                                Rosnay. The duo's label is Ed Banger Records, managed by Pedro Winter.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h4 class="text-uppercase fw-bold mb-4 text-white">
+                                Useful Link
+                            </h4>
+                            <p class="mt-5">
+                                <a href="#!" class=" text-decoration-none text-white">Home</a>
+                            </p>
+                            <p>
+                                <a href="#!" class=" text-decoration-none text-white">About Us</a>
+                            </p>
+                            <p>
+                                <a href="#!" class=" text-decoration-none text-white">Cases</a>
+                            </p>
+                            <p>
+                                <a href="#!" class=" text-decoration-none text-white">Blog</a>
+                            </p>
+                            <p>
+                                <a href="#!" class=" text-decoration-none text-white">Contact Us</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4  col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 gap-3">
+                            <!-- Links -->
+                            <h4 class="text-uppercase fw-bold mb-4 text-white">Contact Now</h4>
+                            <p class="text-white mt-5"><i class="fas fa-home me-3 text-white"></i> 555 4th 5t NW,
+                                Washington
+                                DC 20530, United States</p>
+                            <p class="text-white">
+                                <i class="fas fa-envelope me-3 text-white"></i>
+                                info@example.com
+                            </p>
+                            <p class="text-white">
+                                <i class="fas fa-envelope me-3 text-white"></i>
+                                info@example.com
+                            </p>
+                            <p class="text-white"><i class="fas fa-phone me-3 text-white "></i> +88 01750 000 000</p>
+                            <p class="text-white"><i class="fas fa-print me-3 text-white"></i> +88 01750 000 000</p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h4 class="text-uppercase fw-bold mb-4 text-white">
+                                Subscribe
+                            </h4>
+                            <p class="mt-5">
+                                <a href="#!" class=" text-decoration-none text-white">Subscribe for our latest &
+                                    Articles. We Won`t Give You Spam Mails</a>
+                            </p>
+                            <p>
+                            <div class="input-group mb-3">
+                                <input style="border-radius: 0;" type="text" class="form-control w-100 "
+                                    placeholder="Email" aria-label="Recipient's username"
+                                    aria-describedby="button-addon2">
+                                <div class="input-group-append">
+                                    <button style="    padding: 7px;
+                                      margin-right: -1px;
+                                      border-radius: 0"
+                                        class="btn btn-outline-warning btn-custom position-absolute end-0 px-3 "
+                                        type="button" id="button-addon2"><i class="fa-1x fa-solid fa-location-arrow"></i></button>
+                                </div>
+                            </div>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4 text-white" style="background-color: rgba(255, 253, 253, 0.025);">
+                © 2023 Copyright:
+                <a class="text-white fw-bold text-decoration-none"
+                    href="https://web.programming-hero.com/">Programming-Hero</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+            </script>
+    </body>
+
+</html>
